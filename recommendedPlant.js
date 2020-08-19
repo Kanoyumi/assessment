@@ -71,13 +71,13 @@ const answers = [
 
 var img = [];
 const images = [
-    img[0] = 'gh-pages/img0.jpg',
-    img[1] = 'plant_pictures/img1.jpg',
-    img[2] = 'plant_pictures/img2.jpg',
-    img[3] = 'plant_pictures/img3.jpg',
+    img[0] = 'https://kanoyumi.github.io/assessment/img0.jpg',
+    img[1] = 'https://kanoyumi.github.io/assessment/img1.jpg',
+    img[2] = 'https://kanoyumi.github.io/assessment/img2.jpg',
+    img[3] = 'https://kanoyumi.github.io/assessment/img3.jpg',
     img[4] = 'https://kanoyumi.github.io/assessment/img4.jpg',
-    img[5] = 'plant_pictures/img5.jpg',
-    img[6] = 'plant_pictures/img6.jpg'
+    img[5] = 'https://kanoyumi.github.io/assessment/img5.jpg',
+    img[6] = 'https://kanoyumi.github.io/assessment/img6.jpg',
 ];
 
 /**
