@@ -75,7 +75,7 @@ const images = [
     img[1] = 'plant_pictures/img1.jpg',
     img[2] = 'plant_pictures/img2.jpg',
     img[3] = 'plant_pictures/img3.jpg',
-    img[4] = 'gh-pages/img4.jpg',
+    img[4] = 'https://github.com/Kanoyumi/assessment/blob/gh-pages/img4.jpg',
     img[5] = 'plant_pictures/img5.jpg',
     img[6] = 'plant_pictures/img6.jpg'
 ];
