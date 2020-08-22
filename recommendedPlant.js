@@ -44,7 +44,8 @@ recommendedPlantButton.onclick = () => {
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text', result[0]);
     anchor.innerText = 'Tweet #あなたにおすすめの植物';
-    anchor.setAttribute('data-image', result[1]);
+    anchor.setAttribute('data-url', 'https://kanoyumi.github.io/assessment/recommendedPlant.html');
+
 
     tweetDivided.appendChild(anchor);
 
