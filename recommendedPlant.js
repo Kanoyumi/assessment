@@ -18,7 +18,7 @@ recommendedPlantButton.onclick = () => {
     // 診断結果表示エリアの作成
     removeAllChildren(resultDivided);
     const header = document.createElement('h3');
-    header.innerText = 'お名前と性格に基づくおすすめ植物';
+    header.innerText = 'お名前に基づくおすすめ植物';
     resultDivided.appendChild(header);
 
     const paragraph = document.createElement('p');
@@ -82,9 +82,9 @@ const images = [
 ];
 
 /**
- * 名前の文字列と選んだ性格を渡すと診断結果を返す関数
- * @param {string} userName ユーザーの名前、性格
- * @return {string} 診断結果（画像も）
+ * 名前の文字列を渡すと診断結果を返す関数
+ * @param {string} userName ユーザーの名前
+ * @return {string} 診断結果
  */
 function recommendedPlant(userName) {
  let sumOfCharCode = 0;
